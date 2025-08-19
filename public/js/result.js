@@ -25,11 +25,22 @@ window.onload = async () => {
         const data = {
             name:values[0],
             address:values[1],
-            main:values[4],
+            major:values[4],
             middle:values[5],
             minor:values[6].trim()
         };
         hairetu.push(data);
     };
     console.log(hairetu);
+
+    // フィルター処理
+    const filterdata = hairetu.filter((item) => {
+        const majorMatch = (item.major === major);
+        const middleMatch = (item.middle === middle);
+        const minorMatch = (item.minor === minor);
+        return majorMatch && middleMatch && minorMatch;
+    });
+    console.log(filterdata);
+
+    // カードのテンプレート作成
 };
