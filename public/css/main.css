@@ -36,3 +36,8 @@ select {
 select:invalid { color: #bbb; }
 select option { color: black; }
 select option:first-child { color: #bbb; }
+
+body {
+    background-color: #F8EFE5;
+    color: #262015;
+}
