@@ -19,7 +19,7 @@ h1 {
     margin: 0 auto 100px;
     height: 50px;
     width: 300px;
-    background-color: #9CA00E;
+    background-color: #28A6A5;
 }
 
 .moji {
@@ -39,6 +39,6 @@ select option { color: black; }
 select option:first-child { color: #bbb; }
 
 body {
-    background-color: #F8EFE5;
-    color: #262015;
+    background-color: #F9FCFD;
+    color: #082627;
 }
