@@ -40,7 +40,28 @@ window.onload = async () => {
         const minorMatch = (item.minor === minor);
         return majorMatch && middleMatch && minorMatch;
     });
-    console.log(filterdata);
+    console.log(filterdata.length);
 
-    // カードのテンプレート作成
+    // テンプレート関数を使用して各カードを作成
+    const resultcontainer = document.getElementByID('result-container');
+    
+    if (filterdata.length > 0) {
+        filterdata.forEach(item => {
+            const card = createcard(item);
+            resultcontainer.appendChild(card);
+        });
+    } else {
+        resultcontainer.textContent = '該当する結果がありませんでした。';
+    };
+};
+
+// カードのテンプレート関数
+function createcard(item) {
+    const card = document.createElement('div');
+    card.innerHTML = `
+    <h3>${item.name}</h3>
+    <p>${item.address}</p>
+    <a href="https://www.google.com/search?q=${item.name}" target="_blank">Googleで詳しく調べる</a>
+    `
+    return card;
 };
