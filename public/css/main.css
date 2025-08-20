@@ -30,7 +30,7 @@ h1 {
 }
 
 select {
-    border: 1px solid #bdbdae;
+    border: 3px solid #bdbdae;
 }
 
 select:invalid { color: #bbb; }
