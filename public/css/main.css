@@ -19,7 +19,8 @@ h1 {
     margin: 0 auto 100px;
     height: 50px;
     width: 300px;
-    background-color: #28A6A5;
+    background-color: #2fc0c0;
+    font-size: 15px;
 }
 
 .moji {
@@ -31,7 +32,7 @@ h1 {
 }
 
 select {
-    border: 3px solid #bdbdae;
+    border: 3px solid #2fc0c0;
 }
 
 select:invalid { color: #bbb; }
