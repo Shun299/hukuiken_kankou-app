@@ -25,11 +25,13 @@ h1 {
     background-color: #74ddfd;
     font-size: 15px;
     color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 #submit:hover {
     background-color: #ffffff; /* マウスオーバー時の背景色 */
     color: #74ddfd;
+    cursor: pointer;
 }
 
 .moji {
