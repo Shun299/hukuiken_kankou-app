@@ -51,6 +51,6 @@ select option { color: black; }
 select option:first-child { color: #bbb; }
 
 body {
-    background-color: #f1f8f7;
+    background-color: #fff5e7;
     color: #082627;
 }
