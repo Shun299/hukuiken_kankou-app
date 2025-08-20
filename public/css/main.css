@@ -11,6 +11,9 @@ h1 {
     margin: 0 auto 100px;
     height: 35px;
     font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 4px;
 }
 
 #submit {
@@ -21,7 +24,7 @@ h1 {
     width: 300px;
     background-color: #74ddfd;
     font-size: 15px;
-    color: #f1efef;
+    color: #ffffff;
 }
 
 .moji {
