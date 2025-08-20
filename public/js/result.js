@@ -43,7 +43,7 @@ window.onload = async () => {
     console.log(filterdata.length);
 
     // テンプレート関数を使用して各カードを作成
-    const resultcontainer = document.getElementByID('result-container');
+    const resultcontainer = document.getElementById('result-container');
     
     if (filterdata.length > 0) {
         filterdata.forEach(item => {
