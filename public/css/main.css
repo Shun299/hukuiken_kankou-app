@@ -10,6 +10,7 @@ h1 {
     text-align: center;
     margin: 0 auto 100px;
     height: 50px;
+    font-size: 20px;
 }
 
 #submit {
@@ -27,3 +28,11 @@ h1 {
     text-align: center;
     margin: 0 auto 10px;
 }
+
+select {
+    border: 1px solid #bdbdae;
+}
+
+select:invalid { color: #bbb; }
+select option { color: black; }
+select option:first-child { color: #bbb; }
