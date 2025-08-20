@@ -54,4 +54,6 @@ body {
     background-color: #fff5e7;
     color: #082627;
     background-image: url("../picture/hukuiken.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
