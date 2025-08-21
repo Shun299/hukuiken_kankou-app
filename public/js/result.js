@@ -44,7 +44,7 @@ window.onload = async () => {
     const filterdata = hairetu.filter((item) => {
         const majorMatch = (item.major === major);
         const middleMatch = (item.middle === middle);
-        const minorMatch = (item.minor === minor);
+        const minorMatch = (minor === '小分類を選択してください' || item.minor === minor);  //小分類が選択されていなくても通るようにしている
         return majorMatch && middleMatch && minorMatch;
     });
     console.log(filterdata.length);  // 確認
