@@ -47,3 +47,10 @@ h1 {
     border: 2px solid #3d3d3d;
     border-radius: 8px;
 }
+
+img {
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+    float: left;
+}
