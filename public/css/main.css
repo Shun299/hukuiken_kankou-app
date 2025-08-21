@@ -2,10 +2,16 @@
     text-align: center;
     margin-bottom: 0;
 }
-h1 {
+
+div {
     text-align: center;
     margin-top: 0;
     margin-bottom: 100px;
+}
+
+div img {
+    height: 120px;
+    width: 400px;
 }
 
 #major-class, #middle-class, #minor-class {
