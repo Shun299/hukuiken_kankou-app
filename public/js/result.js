@@ -59,6 +59,7 @@ window.onload = async () => {
 function createcard(item) {
     const card = document.createElement('div');
     card.innerHTML = `
+    <img src="../picture/kari1_1280_853.jpg" style="width: 200px; height: 150px;">
     <h3>${item.name}</h3>
     <p>${item.address}</p>
     <a href="https://www.google.com/search?q=${item.name}" target="_blank">Googleで詳しく調べる</a>
