@@ -40,7 +40,7 @@ window.onload = async () => {
         const minorMatch = (item.minor === minor);
         return majorMatch && middleMatch && minorMatch;
     });
-    console.log(filterdata.length);
+    console.log(filterdata.length);  // 確認
 
     // テンプレート関数を使用して各カードを作成
     const resultcontainer = document.getElementById('result-container');

@@ -1,4 +1,17 @@
+body {
+    background-color: #fff5e7;
+}
+
 h1 {
     text-align: center;
     margin-bottom: 100px;
+}
+
+#result-container div {
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #3d3d3d;
+    border-radius: 8px;
+    color: #333;
 }
