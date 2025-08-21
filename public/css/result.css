@@ -24,4 +24,5 @@ h1 {
     display: block;
     box-sizing: border-box;
     width: 300px;
+    text-decoration: none;
 }
