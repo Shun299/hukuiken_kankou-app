@@ -46,6 +46,9 @@ submit_button.addEventListener('click', (event) => {
     } elseif (middle === '中分類を選択してください') {
         alert('中分類を選択してください。');
         return;
+    } elseif (major === '大分類を選択してください' && middle === '中分類を選択してください') {
+        alert('大分類と中分類を選択してください。');
+        return;
     }
 
     // 各プルダウンメニューの値を取得からURLを作成
