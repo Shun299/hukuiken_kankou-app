@@ -9,7 +9,7 @@ h1 {
     color: #333;
 }
 
-#result-container div {
+#result-container div:first-child {
     margin: 0px 20px 20px;
     padding: 20px;
     background-color: #ffffff;
