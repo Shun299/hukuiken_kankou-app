@@ -1,7 +1,7 @@
 window.onload = async () => {
 
     // 地図の初期化
-    const map = L.map('map').setView([35.83971316123175, 136.0725958942597], 10);
+    const map = L.map('map').setView([35.82387240481848, 136.07278048220354], 9);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
 
     // 送信されたURLから値を取得
