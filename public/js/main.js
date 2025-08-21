@@ -43,10 +43,10 @@ submit_button.addEventListener('click', (event) => {
     if (major === '大分類を選択してください') {
         alert('大分類を選択してください。');
         return; 
-    } elseif (middle === '中分類を選択してください') {
+    } else if (middle === '中分類を選択してください') {
         alert('中分類を選択してください。');
         return;
-    } elseif (major === '大分類を選択してください' && middle === '中分類を選択してください') {
+    } else (major === '大分類を選択してください' && middle === '中分類を選択してください') {
         alert('大分類と中分類を選択してください。');
         return;
     }
