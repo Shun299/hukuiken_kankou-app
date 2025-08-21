@@ -41,13 +41,13 @@ submit_button.addEventListener('click', (event) => {
     const minor = document.getElementById('minor-class').value;
 
     if (major === '大分類を選択してください' && middle === '中分類を選択してください') {
-        alert('大分類を選択してください。');
+        alert('大分類と中分類を選択してください。');
         return; 
     } else if (middle === '中分類を選択してください') {
         alert('中分類を選択してください。');
         return;
     } else if (major === '大分類を選択してください') {
-        alert('大分類と中分類を選択してください。');
+        alert('大分類を選択してください。');
         return;
     }
 
