@@ -49,9 +49,16 @@ window.onload = async () => {
     });
     console.log(filterdata.length);  // 確認
 
-    // テンプレート関数を使用して各カードを作成
     const resultcontainer = document.getElementById('result-container');
     if (filterdata.length > 0) {
+        // 緯度経度を取得してピンを立てる
+        filterdata.forEach(item => {
+            const lat = parseFloat(item.latitude);
+            const lon = parseFloat(item.longitude);
+            L.marker([lat, lon]).addTo(map)
+        });
+
+        // テンプレート関数を使用して各カードを作成
         filterdata.forEach(item => {
             const card = createcard(item);
             resultcontainer.appendChild(card);
