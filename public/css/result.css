@@ -5,6 +5,8 @@ body {
 h1 {
     text-align: center;
     margin-bottom: 100px;
+    letter-spacing: 2px;
+    color: #333;
 }
 
 #result-container div {
