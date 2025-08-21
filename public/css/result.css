@@ -40,23 +40,3 @@ h1 {
     color: #06c5ff;
     cursor: pointer;
 }
-
-
-/**
- * @license
- * Copyright 2024 Google LLC. All Rights Reserved.
- * SPDX-License-Identifier: Apache-2.0
- */
-
-/* Optional: Makes the sample page fill the window. */
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
-/* Shift the flag icon to the right so that the bottom of the flagpole
- * aligns with the anchor point. */
-.flag-icon {
-  position: relative;
-  left: 10px;
-}
