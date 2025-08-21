@@ -40,3 +40,8 @@ h1 {
     color: #06c5ff;
     cursor: pointer;
 }
+
+#map {
+    height: 300px;
+    width: 300px;
+}
