@@ -62,6 +62,7 @@ function createcard(item) {
     <img src="../picture/kari1_1280_853.jpg" style="width: 200px; height: 150px;">
     <img src="../picture/kari2_768_512.jpg" style="width: 200px; height: 150px;">
     <img src="../picture/kari3_650_433.jpg" style="width: 200px; height: 150px;">
+    <img src="../picture/kari4_1299_867.jpg" style="width: 200px; height: 150px;">
     <h3>${item.name}</h3>
     <p>${item.address}</p>
     <a href="https://www.google.com/search?q=${item.name}" target="_blank">Googleで詳しく調べる</a>
