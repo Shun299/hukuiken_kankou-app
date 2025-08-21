@@ -1,7 +1,7 @@
 window.onload = async () => {
 
     // 地図の初期化
-    const map = L.map('map').setView([36.065, 136.221], 10);
+    const map = L.map('map').setView([35.83971316123175, 136.0725958942597], 5);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
 
     // 送信されたURLから値を取得
@@ -55,7 +55,7 @@ window.onload = async () => {
         filterdata.forEach(item => {
             const lat = parseFloat(item.latitude);
             const lon = parseFloat(item.longitude);
-            L.marker([lat, lon]).addTo(map)
+            L.marker([lat, lon]).addTo(map);
         });
 
         // テンプレート関数を使用して各カードを作成
