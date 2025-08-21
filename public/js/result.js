@@ -25,6 +25,8 @@ window.onload = async () => {
         const data = {
             name:values[0],
             address:values[1],
+            latitude:values[2],
+            longitude:values[3],
             major:values[4],
             middle:values[5],
             minor:values[6].trim()
