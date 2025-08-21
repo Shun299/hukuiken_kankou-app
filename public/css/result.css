@@ -20,6 +20,7 @@ h1 {
 
 #btn-toppage {
     margin: 30px auto;
+    padding: 20px;
     text-align: center;
     display: block;
     box-sizing: border-box;
@@ -28,6 +29,7 @@ h1 {
     border: 2px solid #3d3d3d;
     background-color: #06c5ff;
     color: #ffffff;
+    border-radius: 8px;
     transition: background-color 0.3s, color 0.3s;
 }
 
