@@ -55,12 +55,7 @@ window.onload = async () => {
         filterdata.forEach(item => {
             const lat = parseFloat(item.latitude);
             const lon = parseFloat(item.longitude);
-            var popup = L.popup();
-            L.marker([lat, lon]).addTo(map).on('click', function (e) {
-                popup
-                .setLatLng(e.latlng)
-                .setContent(item.name)
-                .openOn(map);
+            L.marker([lat, lon]).addTo(map).bindPopup(`<b>${item.name}</b>`);
             });
 
         // テンプレート関数を使用して各カードを作成
