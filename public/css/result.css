@@ -42,8 +42,8 @@ h1 {
 }
 
 #map {
-    display: block;
     height: 500px;
-    width: 100%;
     margin: 20px 10px 15px;
+    border: 2px solid #3d3d3d;
+    border-radius: 8px;
 }
