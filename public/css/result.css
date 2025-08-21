@@ -21,4 +21,7 @@ h1 {
 #btn-toppage {
     margin: 10px auto;
     text-align: center;
+    display: block;
+    box-sizing: border-box;
+    width: 300px;
 }
