@@ -77,10 +77,10 @@ select option:first-child { color: #bbb; }
 body {
     background-color: #fff5e7;
     color: #082627;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 #class-form {
     background-image: url("../picture/hukuiken.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
