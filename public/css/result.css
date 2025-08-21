@@ -19,6 +19,8 @@ h1 {
 }
 
 #btn-toppage {
+    font-size: 20px;
+    font-weight: bold;
     margin: 30px auto;
     padding: 20px;
     text-align: center;
