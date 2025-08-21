@@ -25,4 +25,14 @@ h1 {
     box-sizing: border-box;
     width: 300px;
     text-decoration: none;
+    border: 2px solid #3d3d3d;
+    background-color: #06c5ff;
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#btn-toppage:hover {
+    background-color: #ffffff; /* マウスオーバー時の背景色 */
+    color: #06c5ff;
+    cursor: pointer;
 }
