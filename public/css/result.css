@@ -6,12 +6,11 @@
   font-display: swap;
 }
 
-
 body {
     background-color: #fff5e7;
 }
 
-h1 {
+#kensaku_kekka {
     text-align: center;
     margin-bottom: 50px;
     letter-spacing: 2px;
