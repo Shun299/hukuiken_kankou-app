@@ -82,13 +82,13 @@ body {
   margin: 100px auto;
 }
 
-#submit, #reset-btn {
+#submit, #reset {
   padding: 10px;
   font-size: 20px;
   font-weight: bold;
-  display: inline-block; /* 横並びにするためのキープロパティ */
-  width: 160px; /* 横幅を調整 */
-  margin: 0 5px; /* ボタン同士の間に少し隙間を空ける */
+  display: inline-block;
+  width: 160px; 
+  margin: 0 5px; 
   color: #ffffff;
   border: 3px solid #3d3d3d;
   border-radius: 8px;
@@ -96,10 +96,10 @@ body {
   cursor: pointer;
 }
 
-#reset-btn {
-  background-color: #888888; /* 見分けやすいように色を変更 */
+#reset {
+  background-color: #888888;
 }
 
-#reset-btn:hover {
+#reset:hover {
   background-color: #666666;
 }
