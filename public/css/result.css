@@ -7,54 +7,56 @@
 }
 
 body {
-    background-color: #fff5e7;
+  background-color: #fff5e7;
 }
 
 #kensaku_kekka {
-    text-align: center;
-    margin-bottom: 50px;
-    letter-spacing: 2px;
-    color: #333;
-    font-family: 'GenEiLateMin', sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  font-size: 33px;
+  color: #333;
+  font-family: 'GenEiLateMin', sans-serif;
 }
 
 #result-container > div {
-    margin: 0px 20px 25px;
-    padding: 20px;
-    background-color: #ffffff;
-    border: 2px solid #3d3d3d;
-    border-radius: 8px;
-    color: #333;
+  margin: 0px 20px 25px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 2px solid #3d3d3d;
+  border-radius: 8px;
+  color: #333;
 }
 
 #btn-toppage {
-    font-size: 20px;
-    font-weight: bold;
-    margin: 30px auto;
-    padding: 20px;
-    text-align: center;
-    display: block;
-    box-sizing: border-box;
-    width: 300px;
-    text-decoration: none;
-    border: 2px solid #3d3d3d;
-    background-color: #06c5ff;
-    color: #ffffff;
-    border-radius: 8px;
-    transition: background-color 0.3s, color 0.3s;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+  width: 300px;
+  text-decoration: none;
+  border: 2px solid #3d3d3d;
+  background-color: #06c5ff;
+  color: #ffffff;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 #btn-toppage:hover {
-    background-color: #ffffff; /* マウスオーバー時の背景色 */
-    color: #06c5ff;
-    cursor: pointer;
+  background-color: #ffffff; /* マウスオーバー時の背景色 */
+  color: #06c5ff;
+  cursor: pointer;
 }
 
 #map {
-    height: 500px;
-    margin: 10px 50px 30px;
-    border: 2px solid #3d3d3d;
-    border-radius: 8px;
+  height: 500px;
+  margin: 10px 50px 30px;
+  border: 2px solid #3d3d3d;
+  border-radius: 8px;
 }
 
 .card-image {
