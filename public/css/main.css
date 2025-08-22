@@ -8,17 +8,20 @@
 
 #title_setumei {
     text-align: center;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 5px;
     font-size: 20px;
     font-family: 'GenEiLateMin', sans-serif;
 }
 
 #title_hukunavi {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 70px;
+    margin-top: 0px;
     font-size: 50px;
     font-weight: bold;
     font-family: 'GenEiLateMin', sans-serif;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
 }
 
 div {
