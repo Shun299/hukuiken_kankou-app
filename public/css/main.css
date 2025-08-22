@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'GenEiLateMin';
-  src: url('//public/font/GenEiLateMin_v2.ttc') format('truetype');
+  src: url('../public/font/GenEiLateMin_v2.ttc') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap; /* 読み込み中に代替フォントを表示 */
