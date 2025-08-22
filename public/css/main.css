@@ -84,7 +84,7 @@ body {
     background-image: url(../picture/hukuiken.png);
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 300px;
+    max-height: 550px;
     background-size: contain;
     margin: 40px;
     padding: 70px 30px 30px 30px;
