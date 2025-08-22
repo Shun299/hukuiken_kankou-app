@@ -1,6 +1,5 @@
 body {
     background-color: #fff5e7;
-    font-family: "Zen Kaku Gothic Antique", "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic";
 }
 
 h1 {
@@ -63,4 +62,9 @@ h1 {
 
 .card-text-container {
   text-align: left;
+}
+
+#map-name {
+  text-align: center;
+  font-size: 24px;
 }

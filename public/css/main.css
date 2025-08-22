@@ -57,7 +57,6 @@ select option:first-child { color: #bbb; }
 body {
     background-color: #fff5e7;
     color: #082627;
-    font-family: "Zen Kaku Gothic Antique", "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic";
 }
 
 #class-form {
