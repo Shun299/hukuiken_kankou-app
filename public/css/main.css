@@ -27,12 +27,6 @@ div img {
     border-radius: 4px;
 }
 
-#submit:hover {
-    background-color: #ffffff; /* マウスオーバー時の背景色 */
-    color: #06c5ff;
-    cursor: pointer;
-}
-
 .moji {
     display: block;
     box-sizing: border-box;
@@ -89,17 +83,28 @@ body {
   display: inline-block;
   width: 160px; 
   margin: 0 5px; 
-  color: #ffffff;
   border: 3px solid #3d3d3d;
   border-radius: 8px;
   transition: background-color 0.3s, color 0.3s;
   cursor: pointer;
 }
 
+#submit {
+    background-color: #06c5ff;
+    color: #ffffff;
+}
+
+#submit:hover {
+    background-color: #ffffff;
+    color: #06c5ff;
+}
+
 #reset {
-  background-color: #888888;
+    color: #3d3d3d;
+    background-color: #888888;
 }
 
 #reset:hover {
-  background-color: #666666;
+    color: #3d3d3d;
+    background-color: #666666;
 }
