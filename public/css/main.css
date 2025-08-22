@@ -6,11 +6,18 @@
   font-display: swap; /* 読み込み中に代替フォントを表示 */
 }
 
+#title_setumei {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'GenEiLateMin', sans-serif;
+}
 
 #title_hukunavi {
     text-align: center;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 50px;
+    font-weight: bold;
     font-family: 'GenEiLateMin', sans-serif;
 }
 
