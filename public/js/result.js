@@ -49,12 +49,6 @@ window.onload = async () => {
     });
     console.log(filterdata.length);  // 確認
 
-    const kekkaTitle = document.getElementById('kensaku_kekka');
-    const kennsuu = document.createElement('div');
-    kennsuu.textContent = `${searchResultCount}件ヒットしました`;
-    kennsuu.id = 'result-count';
-    kekkaTitle.after(kennsuu); 
-
     const resultcontainer = document.getElementById('result-container');
     if (filterdata.length > 0) {
         // 緯度経度を取得してピンを立てる
