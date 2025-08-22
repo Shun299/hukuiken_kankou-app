@@ -27,21 +27,6 @@ div img {
     border-radius: 4px;
 }
 
-#submit {
-    padding: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    display: block;
-    text-align: center;
-    margin: 100px auto 100px;
-    width: 330px;
-    background-color: #06c5ff;
-    color: #ffffff;
-    border: 3px solid #3d3d3d;
-    border-radius: 8px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
 #submit:hover {
     background-color: #ffffff; /* マウスオーバー時の背景色 */
     color: #06c5ff;
@@ -90,4 +75,31 @@ body {
     padding: 70px 30px 30px 30px;
     background-color: #aae4fb;
     border-radius: 20px;
+}
+
+.button-class {
+  text-align: center; /* 中のボタンを中央揃えにする */
+  margin: 100px auto;
+}
+
+#submit, #reset-btn {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block; /* 横並びにするためのキープロパティ */
+  width: 160px; /* 横幅を調整 */
+  margin: 0 5px; /* ボタン同士の間に少し隙間を空ける */
+  color: #ffffff;
+  border: 3px solid #3d3d3d;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+#reset-btn {
+  background-color: #888888; /* 見分けやすいように色を変更 */
+}
+
+#reset-btn:hover {
+  background-color: #666666;
 }
