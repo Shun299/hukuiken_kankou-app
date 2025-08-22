@@ -81,7 +81,7 @@ body {
   font-size: 20px;
   font-weight: bold;
   display: inline-block;
-  margin: 0 5px; 
+  margin: 0 3px; 
   border: 3px solid #3d3d3d;
   border-radius: 8px;
   transition: background-color 0.2s, color 0.2s;
@@ -91,7 +91,7 @@ body {
 #submit {
     background-color: #06c5ff;
     color: #ffffff;
-    width: 160px; 
+    width: 210px;
 }
 
 #submit:hover {
@@ -102,7 +102,7 @@ body {
 #reset {
     color: #ffffff;
     background-color: #ff7070;
-    width: 100px; 
+    width: 108px; 
 }
 
 #reset:hover {
