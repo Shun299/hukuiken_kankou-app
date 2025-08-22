@@ -55,7 +55,7 @@ window.onload = async () => {
         filterdata.forEach(item => {
             const lat = parseFloat(item.latitude);
             const lon = parseFloat(item.longitude);
-            L.marker([lat, lon]).addTo(map).bindPopup(`<a href="https://www.google.com/search?q=${item.name}" target="_blank"><b>${item.name}</b></a>`);
+            L.marker([lat, lon],{icon: L.spriteIcon('red')}).addTo(map).bindPopup(`<a href="https://www.google.com/search?q=${item.name}" target="_blank"><b>${item.name}</b></a>`);
             });
 
         // テンプレート関数を使用して各カードを作成
