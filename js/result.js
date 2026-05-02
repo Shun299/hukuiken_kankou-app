@@ -12,7 +12,7 @@ window.onload = async () => {
     console.log(major, middle, minor);
 
     // CSVファイルを取得
-    const csvFilePath = '/kankouti.csv'; 
+    const csvFilePath = 'kankouti.csv'; 
     const response = await fetch(csvFilePath);
     const text = await response.text()
     console.log(text);
@@ -73,10 +73,10 @@ function createcard(item) {
     const card = document.createElement('div');
     card.innerHTML = `
     <div class="card-image-container">
-        <img src="../picture/kari1_1280_853.jpg" class="card-image">
-        <img src="../picture/kari2_768_512.jpg" class="card-image">
-        <img src="../picture/kari3_650_433.jpg" class="card-image">
-        <img src="../picture/kari4_1299_867.jpg" class="card-image">
+        <img src="picture/kari1_1280_853.jpg" class="card-image">
+        <img src="picture/kari2_768_512.jpg" class="card-image">
+        <img src="picture/kari3_650_433.jpg" class="card-image">
+        <img src="picture/kari4_1299_867.jpg" class="card-image">
     </div>
     <div class="card-text-container">
         <h3>${item.name}</h3>

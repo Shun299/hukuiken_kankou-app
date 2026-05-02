@@ -52,5 +52,5 @@ submit_button.addEventListener('click', (event) => {
     }
 
     // 各プルダウンメニューの値を取得からURLを作成
-    location.href = `/html/result.html?major=${major}&middle=${middle}&minor=${minor}`
+    location.href = `result.html?major=${major}&middle=${middle}&minor=${minor}`
 })
