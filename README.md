@@ -1,24 +1,29 @@
-# template-deno-dev
+# ふくナビ
 
-[Deno](https://deno.land/)を使った開発のテンプレートです。  
-[Deno Deploy](https://deno.com/deploy)を利用して外部へ公開することを想定しています。  
+## 概要
+福井県の観光スポットを紹介するWebアプリです。
+「探す」のではなく「選びながら考える」体験を重視し、目的が曖昧な状態でも自分に合った観光地を見つけられる設計としました。
 
-## Deno Deploy の利用方法
+## 背景・課題
+一般的な観光サイトではキーワード検索が中心で、
+土地に詳しくない利用者にとっては「どこに行くか決まっていない状態」で使いづらいという課題があります。
 
-↓以上の詳細は公式リファレンスへ。
+## コンセプト
+「選びながら考える、旅の準備体験」
 
-1. [Deno Deploy](https://deno.com/deploy)にアクセスして、右上の「Sign In」からGitHubアカウントでのOAuthログインでアカウントを作成orログインしてください。
-2. 青い「+ New Project」から「Create a project」画面に遷移して、「Deploy an existing GitHub repository」側から GitHub repository の「Select a repository」をクリック
-3. Create a project from GitHub の画面で、デプロイするリポジトリを選んでこのリポジトリをテンプレートにした場合は「No build step」で、メインのDenoのコードが書いてあるファイルをエントリポイントに指定して「Create & Deploy」します。
-4. ダイアログが出て Deployed になれば成功。右上の青い「View」からデプロイされたページが確認できるはずです。
+大分類・中分類・小分類を段階的に選択することで、
+直感的に観光地を絞り込めるUIを設計しました。
 
-## コミットテンプレートとemoji prefixについて
+## 工夫した点
+- キーワード検索に頼らない段階的な検索UI
+- 条件をクエリパラメータとして受け渡し、画面間で状態を保持
+- 地図と一覧を同時に表示し、位置関係を把握しやすく設計
 
-コミットテンプレートは以下のようにして使用できます。  
+## 使用技術
+- HTML / CSS / JavaScript
 
-```shell
-cd <リポジトリ直下>
-git config commit.template ./.commit_template
-```
+## URL
+https://shun299.github.io/hukuiken_kankou-app/
 
-emoji prefix にはコミット履歴が可愛くなる他にもメリットがありますが、コミット履歴が可愛くなるのが好きで使ってます。
+## 制作期間
+5日間：インターンシップにて、企業の方のアドバイスを受けながら制作
