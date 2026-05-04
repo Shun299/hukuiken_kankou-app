@@ -1,49 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @font-face {
-  font-family: 'GenEiLateMin';
-  src: url('../fonts/GenEiLateMinN_v2.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'GenEiLateMin';
+    src: url('../fonts/GenEiLateMinN_v2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --bg-color: #fff5e7;
+    --text-color: #2b2b2b;
+    --title-color: #ff9500;
+    --submit-color: #06c5ff;
+    --reset-color: #ff7070;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+#containers {
+    display: grid;
+    gap: 2rem;
 }
 
 #title_setumei {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 5px;
-    font-size: 20px;
     font-family: 'GenEiLateMin', sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+    font-size: 1.25rem;
 }
 
 #title_hukunavi {
     text-align: center;
-    margin-bottom: 70px;
-    margin-top: 0px;
-    font-size: 65px;
+    font-size: 4rem;
     font-weight: 900;
     font-family: 'GenEiLateMin', sans-serif;
-    color: #ff9500;
+    color: var(--title-color);
     letter-spacing: -5px;
 }
 
-div {
+.button-class {
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 60px;
-}
-
-div img {
-    height: 199px;
-    width: 360px;
+    margin-bottom: 14rem;
 }
 
 #major-class, #middle-class, #minor-class {
     display: block;
-    box-sizing: border-box;
     width: 300px;
     text-align: center;
     margin: 0 auto 70px;
-    height: 40px;
-    font-size: 15px;
+    height: 2.5rem;
+    font-size: 1rem;
     padding: 5px;
     border-radius: 4px;
 }
@@ -54,41 +69,51 @@ div img {
     width: 300px;
     text-align: center;
     margin: 0 auto 10px;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
-    text-shadow    : 
-       2px  2px 10px #ffffff,
-      -2px  2px 10px #ffffff,
-       2px -2px 10px #ffffff,
-      -2px -2px 10px #ffffff,
-       2px  0px 10px #ffffff,
-       0px  2px 10px #ffffff,
-      -2px  0px 10px #ffffff,
-       0px -2px 10px #ffffff;        /* 文字の影 */
+    text-shadow: 
+       0px 0px 10px #ffffff,
+       0px 0px 10px #ffffff,
+       0px 0px 10px #ffffff,
+       0px 0px 10px #ffffff,
+       0px 0px 10px #ffffff,
+       0px 0px 10px #ffffff,
+       0px 0px 10px #ffffff,
+       0px 0px 10px #ffffff;        /* 文字の影 */
 }
 
 select {
     border: 3px solid #2fc0c0;
 }
 
-select:invalid { color: #bbb; }
+select:invalid { color: #aa7474; }
 select option { color: black; }
 select option:first-child { color: #bbb; }
 
-body {
-    background-color: #fff5e7;
-    color: #082627;
+#forms {
+    display: grid;
+    position: relative;
+    gap: 5rem;
+    background-color: #aae4fb;
+}
+
+#class-form::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: url(../picture/hukuiken.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
 }
 
 #class-form {
-    background-image: url(../picture/hukuiken.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    position: relative;
+    z-index: 1;
     max-height: 550px;
-    background-size: contain;
     margin: 40px;
     padding: 70px 30px 30px 30px;
-    background-color: #aae4fb;
     border-radius: 20px;
 }
 
@@ -103,30 +128,30 @@ body {
   font-weight: bold;
   display: inline-block;
   margin: 0 3px; 
-  border: 3px solid #3d3d3d;
+  border: 3px solid var(--text-color);
   border-radius: 8px;
   transition: background-color 0.2s, color 0.2s;
   cursor: pointer;
 }
 
 #submit {
-    background-color: #06c5ff;
+    background-color: var(--submit-color);
     color: #ffffff;
     width: 210px;
 }
 
 #submit:hover {
     background-color: #ffffff;
-    color: #06c5ff;
+    color: var(--submit-color);
 }
 
 #reset {
     color: #ffffff;
-    background-color: #ff7070;
+    background-color: var(--reset-color);
     width: 108px; 
 }
 
 #reset:hover {
-    color: #ff7070;
+    color: var(--reset-color);
     background-color: #ffffff;
 }

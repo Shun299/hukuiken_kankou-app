@@ -14,13 +14,25 @@
         <script src="js/result.js"></script>
     </head>
     <body>
-        <p id="kensaku_kekka">検索結果</p>
+        <div id="containers">
+            <section id="titles">
+                <p id="kensaku_kekka">検索結果</p>
+                <p id="subtitle"></p>
+            </section>
 
-        <p id="map-name">- Field Map -</p>
-        <div id="map"></div>
+            <section id="map-container">
+                <p id="map-name">- Field Map -</p>
+                <div id="map"></div>
+            </section>
 
-        <div id="result-spot">- Result Spot -</div>
-        <div id="result-container"></div>
-        <a href="index.html" id="btn-toppage">検索画面に戻る</a>
+            <section id="results">
+                <div id="result-spot">- Result Spot -</div>
+                <div id="result-container"></div>
+            </section>
+
+            <section id="return-button">
+                <a href="index.html" id="btn-toppage">検索画面に戻る</a>
+            </section>
+        </div>
     </body>
 </html>

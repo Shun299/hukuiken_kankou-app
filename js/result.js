@@ -11,6 +11,10 @@ window.onload = async () => {
     const minor  = url.searchParams.get('minor');
     console.log(major, middle, minor);
 
+    // タイトルを表示
+    const subtitle = document.querySelector("#subtitle");
+    subtitle.textContent = `${major}　/　${middle}　/　${minor}`;
+
     // CSVファイルを取得
     const csvFilePath = 'kankouti.csv'; 
     const response = await fetch(csvFilePath);
