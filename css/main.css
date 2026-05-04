@@ -28,12 +28,12 @@ body {
 #containers {
     display: grid;
     gap: 2rem;
+    margin: 3rem 0;
 }
 
 #title_setumei {
     font-family: 'GenEiLateMin', sans-serif;
     text-align: center;
-    margin-top: 2rem;
     margin-bottom: .5rem;
     font-size: 1.25rem;
 }
@@ -49,18 +49,17 @@ body {
 
 .button-class {
     text-align: center;
-    margin-bottom: 14rem;
 }
 
 #major-class, #middle-class, #minor-class {
     display: block;
-    width: 300px;
+    width: 18.75rem;
     text-align: center;
-    margin: 0 auto 70px;
     height: 2.5rem;
     font-size: 1rem;
-    padding: 5px;
+    padding: .5rem;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .moji {
@@ -93,13 +92,16 @@ select option:first-child { color: #bbb; }
 #forms {
     display: grid;
     position: relative;
+    margin: 3rem 5rem;
     gap: 5rem;
     background-color: #aae4fb;
+    border-radius: 20px;
 }
 
 #class-form::before {
     content: "";
     position: absolute;
+    opacity: .8;
     top: 0; left: 0; right: 0; bottom: 0;
     background-image: url(../picture/hukuiken.png);
     background-size: contain;
@@ -109,17 +111,12 @@ select option:first-child { color: #bbb; }
 }
 
 #class-form {
+    display: grid;
+    justify-items: center;
+    gap: 5rem;
     position: relative;
     z-index: 1;
-    max-height: 550px;
-    margin: 40px;
-    padding: 70px 30px 30px 30px;
-    border-radius: 20px;
-}
-
-.button-class {
-  text-align: center;
-  margin: 85px auto;
+    margin: 4rem 0;
 }
 
 #submit, #reset {
@@ -154,4 +151,9 @@ select option:first-child { color: #bbb; }
 #reset:hover {
     color: var(--reset-color);
     background-color: #ffffff;
+}
+
+#footer-small {
+    text-align: center;
+    margin-bottom: 3rem;
 }
