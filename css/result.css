@@ -41,7 +41,7 @@ body {
 }
 
 #subtitle {
-  margin-top: .5rem;
+  margin: .5rem 1rem 0;
 }
 
 #result-container > div {
