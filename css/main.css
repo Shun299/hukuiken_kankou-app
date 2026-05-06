@@ -162,4 +162,8 @@ select option:first-child { color: #bbb; }
     #forms {
         margin: 2rem 1rem;
     }
+
+    #class-form::before {
+        background-size: 70%;
+    }
 }
