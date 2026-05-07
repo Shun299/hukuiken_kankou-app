@@ -23,6 +23,7 @@
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
+    letter-spacing: .1em;
 }
 
 #containers {
@@ -45,10 +46,6 @@ body {
     font-family: 'GenEiLateMin', sans-serif;
     color: var(--title-color);
     letter-spacing: -5px;
-}
-
-.button-class {
-    text-align: center;
 }
 
 #major-class, #middle-class, #minor-class {
@@ -82,12 +79,8 @@ body {
 }
 
 select {
-    border: 3px solid #2fc0c0;
+    border: 3px solid var(--text-color);
 }
-
-select:invalid { color: #aa7474; }
-select option { color: black; }
-select option:first-child { color: #bbb; }
 
 #forms {
     display: grid;
@@ -119,12 +112,16 @@ select option:first-child { color: #bbb; }
     margin: 4rem 0;
 }
 
+#buttons {
+    display: flex;
+    gap: .5rem;
+}
+
 #submit, #reset {
-  padding: 10px;
+  padding: .5rem 1rem;
   font-size: 20px;
   font-weight: bold;
   display: inline-block;
-  margin: 0 3px; 
   border: 3px solid var(--text-color);
   border-radius: 8px;
   transition: background-color 0.2s, color 0.2s;
@@ -134,7 +131,7 @@ select option:first-child { color: #bbb; }
 #submit {
     background-color: var(--submit-color);
     color: #ffffff;
-    width: 210px;
+    width: 200px;
 }
 
 #submit:hover {
@@ -145,7 +142,7 @@ select option:first-child { color: #bbb; }
 #reset {
     color: #ffffff;
     background-color: var(--reset-color);
-    width: 108px; 
+    width: fit-content; 
 }
 
 #reset:hover {
@@ -165,5 +162,9 @@ select option:first-child { color: #bbb; }
 
     #class-form::before {
         background-size: 80%;
+    }
+
+    #submit, #reset {
+        padding: .5rem;
     }
 }
